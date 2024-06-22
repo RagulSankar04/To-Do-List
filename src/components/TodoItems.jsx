@@ -27,7 +27,7 @@ export default function TodoItems({ no, text, display, setTodos }) {
   return (
     <div className="flex justify-between items-center pt-6 px-2">
       <div
-        className={`flex p-2 ${display} cursor-pointer`}
+        className={`flex p-3 ${display} cursor-pointer`}
         onClick={() => toggle(no)}
       >
         {display === "" ? (
